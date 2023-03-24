@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
 header {
     margin: 47px 0px 0px 42px;
 }
@@ -34,9 +39,8 @@ header {
     letter-spacing: 1px;
 }
 
-img {
-    margin-top: 163px;
-    margin-left: 121px;
+.img {
+    margin: 163px 0 0 123px;
     display: inline-block
 }
 
@@ -45,6 +49,7 @@ img {
     font-size: 62px;
     line-height: 82px;
     color: #161A49;
+    letter-spacing: 0.596154px;
 
 }
 
@@ -55,8 +60,8 @@ img {
     color: #4B505A;
     margin-top: 47px;
     margin-bottom: 55px;
-    text-align: center;
     letter-spacing: 0.5px;
+    width: 493px;
 }
 
 .link-learn {
@@ -68,8 +73,52 @@ img {
     margin-top: 100px;
 }
 
-div {
+.text {
     display: inline-block;
     margin-left: 85px;
-    width: 493px;
+
+}
+
+@media screen and (max-width:1600px) {
+
+    .link-header {
+        display: none;
+    }
+
+    /*.button-sign {
+        float: right;
+        margin-right: 15px;
+
+    }
+*/
+    .h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        width: 278px;
+        margin: auto;
+    }
+
+    p{
+        font-size:18px;
+        line-height:33px;
+        text-align:center;
+        letter-spacing:0.5px;
+    }
+
+    .img {
+        position: absolute;
+        margin: 450px 39px 23px 6px;
+
+    }
+
+    .text {
+        position: relative;
+        margin: 124px 43px 77px 43px;
+        text-align: center;
+    }
+    header{
+        margin: 17px 15px 0px 456px;
+    }
 }
